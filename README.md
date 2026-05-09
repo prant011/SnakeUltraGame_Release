@@ -255,29 +255,6 @@ The game is **ready to play out of the box:**
 
 ---
 
-## 💡 Tips & Tricks
-
-- **Plan ahead:** Try to anticipate the food spawn locations
-- **Use wrapping:** Leverage edge wrapping to create shortcuts
-- **Bonus farming:** Watch for bonus food and plan your route to collect it
-- **Speed management:** At higher speeds, use shorter movements for precision
-- **High scores:** Balance risk-taking with cautious play for consistent scores
-
----
-
-## 🛠️ Future Enhancements (Potential)
-
-- [ ] Difficulty levels (Easy, Medium, Hard)
-- [ ] Sound effects and background music
-- [ ] Multiple game modes (Classic, Arcade, Zen)
-- [ ] Leaderboard system
-- [ ] Network multiplayer
-- [ ] Custom themes and color schemes
-- [ ] Touch/controller support
-- [ ] Mobile version
-
----
-
 ## 📝 License
 
 This project is available for personal and educational use. Feel free to modify and share the code.
@@ -305,6 +282,11 @@ Found a bug? Have suggestions? Feel free to:
 - Share your feedback and experience
 
 ---
+
+## 👨‍💻 Developer
+
+**Farhin Ahmed Pranto**  
+[![Email](https://img.shields.io/badge/Email-farhinahmed71%40gmail.com-blue?style=flat&logo=gmail)](mailto:farhinahmed71@gmail.com)
 
 <p align="center">
   <strong>🐍 Enjoy playing Snake Ultra! 🎮</strong>
