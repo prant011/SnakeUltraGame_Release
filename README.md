@@ -7,6 +7,10 @@
 
 A polished Windows desktop snake game built with **C++17** and the **Win32 GDI API**. Snake Ultra combines classic snake gameplay with animated rendering, particle effects, bonus scoring, a custom application icon, and a shareable Windows executable.
 
+<img width="655" height="659" alt="Screenshot 2026-05-09 192811" src="https://github.com/user-attachments/assets/fb1f855a-5cc6-427c-8fcc-b04533a78c75" />
+<img width="659" height="663" alt="Screenshot 2026-05-09 192758" src="https://github.com/user-attachments/assets/9a72fd28-0f0b-4d2f-8da7-d39578615098" />
+
+
 ## Overview
 
 | Item | Details |
