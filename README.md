@@ -24,7 +24,7 @@ A **polished, high-performance Windows desktop snake game** built with **C++17**
 | **Game Type** | Windows Desktop Arcade Game |
 | **Technology Stack** | C++17, Win32 API, GDI Graphics |
 | **Target Platform** | Windows (7 and later) |
-| **Release Build** | `dist\SnakeUltra.exe` |
+| **Release Build** | `SnakeUltra.exe` |
 | **File Size** | Lightweight, single executable |
 | **Current Version** | 1.0 Release |
 
