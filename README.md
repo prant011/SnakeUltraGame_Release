@@ -16,22 +16,6 @@ A **polished, high-performance Windows desktop snake game** built with **C++17**
 
 ---
 
-## 📋 Table of Contents
-
-- [Overview](#overview)
-- [Features](#features)
-- [Game Controls](#game-controls)
-- [Scoring System](#scoring-system)
-- [Build Requirements](#build-requirements)
-- [Build & Run](#build--run)
-- [Installation & Sharing](#installation--sharing)
-- [Project Structure](#project-structure)
-- [Game Mechanics](#game-mechanics)
-- [Performance & Optimization](#performance--optimization)
-- [License](#license)
-
----
-
 ## 📌 Overview
 
 | Item | Details |
