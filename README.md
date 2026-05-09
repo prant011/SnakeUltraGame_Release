@@ -120,59 +120,6 @@ A **polished, high-performance Windows desktop snake game** built with **C++17**
 
 ---
 
-## 🚀 Build & Run
-
-### Option 1: VS Code with Code Runner (Recommended)
-
-1. **Prepare your workspace:**
-   - Open the project folder in VS Code
-   - Ensure MinGW and MSYS2 are installed and in your PATH
-
-2. **Build & Run:**
-   - Open any `.cpp` file in the editor
-   - Press `Ctrl + Alt + N` to compile and run
-   - The game will start automatically
-
-### Option 2: Manual PowerShell Build
-
-```powershell
-# Step 1: Compile the resource file
-windres SnakeUltra.rc -O coff -o SnakeUltra.res
-
-# Step 2: Build the executable
-g++ main.cpp GameWindow.cpp SnakeGame.cpp SnakeRenderer.cpp SnakeUltra.res `
-  -std=c++17 `
-  -O2 `
-  -static `
-  -static-libgcc `
-  -static-libstdc++ `
-  -mwindows `
-  -lgdi32 `
-  -luser32 `
-  -lwinmm `
-  -o dist\SnakeUltra.exe
-
-# Step 3: Clean up temporary files
-Remove-Item SnakeUltra.res
-
-# Step 4: Run the game
-.\dist\SnakeUltra.exe
-```
-
-### Option 3: Batch File Build
-
-Create a `build.bat` file and run it:
-
-```batch
-@echo off
-windres SnakeUltra.rc -O coff -o SnakeUltra.res
-g++ main.cpp GameWindow.cpp SnakeGame.cpp SnakeRenderer.cpp SnakeUltra.res -std=c++17 -O2 -static -static-libgcc -static-libstdc++ -mwindows -lgdi32 -luser32 -lwinmm -o dist\SnakeUltra.exe
-del SnakeUltra.res
-echo Build complete! Running game...
-dist\SnakeUltra.exe
-```
-
----
 
 ## 📦 Installation & Sharing
 
@@ -180,35 +127,9 @@ dist\SnakeUltra.exe
 
 The game is **ready to play out of the box:**
 
-1. **Download** `SnakeUltra.exe` from the `dist` folder
+1. **Download** `SnakeUltra.exe` from the Release
 2. **Place it anywhere** on your computer
 3. **Double-click to play** - No installation, no dependencies required
-
-### For Developers
-
-1. Clone the repository
-2. Follow the build steps above
-3. The compiled executable will be in the `dist` folder
-4. Share the `dist\SnakeUltra.exe` file with others
-
----
-
-## 📁 Project Structure
-
-| Path | Purpose | Type |
-| --- | --- | --- |
-| **main.cpp** | Application entry point and Windows message loop | Source |
-| **GameWindow.h / .cpp** | Window creation, timers, input handling, and painting | Core |
-| **SnakeGame.h / .cpp** | Game logic, state management, and collision detection | Core |
-| **SnakeRenderer.h / .cpp** | Board rendering, snake drawing, and UI elements | Rendering |
-| **GameConfig.h** | Configuration: grid sizes, timers, colors, and constants | Config |
-| **GameTypes.h** | Shared data types and structures | Header |
-| **SnakeUltra.rc** | Windows resource definitions (icons, dialogs) | Resource |
-| **resource.h** | Resource identifiers and constants | Header |
-| **assets/SnakeUltra.ico** | Application window icon (embedded in executable) | Asset |
-| **assets/readme-logo.png** | README badge and logo | Asset |
-| **.vscode/settings.json** | VS Code build and run configuration | Config |
-| **dist/SnakeUltra.exe** | Final compiled release executable | Build Output |
 
 ---
 
@@ -261,18 +182,6 @@ This project is available for personal and educational use. Feel free to modify 
 
 ---
 
-## 🎓 Learning Resources
-
-This project demonstrates:
-- **Modern C++17** features and best practices
-- **Windows API programming** with Win32 and GDI
-- **Game loop architecture** and timing
-- **Collision detection** algorithms
-- **Double-buffering** for flicker-free rendering
-- **Resource management** in Windows applications
-- **Memory-efficient** game state management
-
----
 
 ## 📧 Feedback & Support
 
