@@ -111,7 +111,7 @@ A **polished, high-performance Windows desktop snake game** built with **C++17**
 
 The game is **ready to play out of the box:**
 
-1. **Download** `SnakeUltra.exe` from the Release
+1. **Download** `SnakeUltra.exe` from the Releases
 2. **Place it anywhere** on your computer
 3. **Double-click to play** - No installation, no dependencies required
 
